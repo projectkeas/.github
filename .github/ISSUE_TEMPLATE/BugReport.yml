@@ -7,6 +7,13 @@ body:
     attributes:
       value: |
         ## Thanks for taking the time to fill out this bug report!
+        
+        We're sorry that you're experiencing an issue. So that we can help you effectively, please fill in this form to the best of your ability. The more information that you can provide the easier we will be able to help you.
+                
+        **Helpful Links**
+        - [Code of Conduct](https://github.com/projectkeas/.github/blob/main/CODE_OF_CONDUCT.md)
+        - [Contribution Guide](https://github.com/projectkeas/.github/blob/main/CONTRIBUTING.md)
+        - [Security Guide](https://github.com/projectkeas/.github/blob/main/SECURITY.md)
   - type: textarea
     id: what-happened
     attributes:
