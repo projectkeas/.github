@@ -1,0 +1,38 @@
+name: Feature Request
+description: Got a cool idea? Suggest it here
+title: ":bulb: [Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to fill out this an idea for improving the project!
+        
+        We love to hear any and all ideas that you may have. It would be great to get as much detail from you as you wish to provide.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Idea Contribution
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the GitHub Docs project's [Code of Conduct](https://github.com/projectkeas/.github/CODE_OF_CONDUCT.md)
+          required: true
+  - type: textarea
+    id: whats-your-idea
+    attributes:
+      label: Tell us about your idea
+      description: |
+        - Give as much detail as you can to help us understand the change you want to see. 
+        - Why should the project be changed? What use cases does it support? 
+        - What is the expected outcome?
+    validations:
+      required: true
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything Else?
+      description: Anything else that we should know about your issue?
+      placeholder: |
+        eg: System information, version information
+    validations:
+      required: false
