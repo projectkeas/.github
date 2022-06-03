@@ -31,6 +31,7 @@ body:
     attributes:
       label: Anything Else?
       description: Anything else that we should know about your issue?
-      placeholder: eg: System information, version information
+      placeholder: |
+        eg: System information, version information
     validations:
       required: false
