@@ -1,6 +1,6 @@
 name: Feature Request
 description: Got a cool idea? Suggest it here
-title: ":bulb: [Idea]: "
+title: ":bulb: "
 labels: ["enhancement"]
 body:
   - type: markdown
